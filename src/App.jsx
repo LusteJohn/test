@@ -6,7 +6,7 @@ function Navbar() {
       <div className="nav-container">
         <div className="nav-logo">
           <span className="logo-icon">??</span>
-          <span className="logo-text">Sweet Crumbs</span>
+          <span className="logo-text">Sweet Pandesal and Crumbs</span>
         </div>
         <ul className="nav-links">
           <li><a href="#home">Home</a></li>
@@ -76,7 +76,7 @@ function Menu() {
         <div className="section-header">
           <p className="section-tag">Our Menu</p>
           <h2>Freshly Baked Favorites</h2>
-          <p className="section-sub">From classic breads to decadent cakes — there is something for everyone.</p>
+          <p className="section-sub">From classic breads to decadent cakes â€” there is something for everyone.</p>
         </div>
         <div className="menu-grid">
           {products.map((p) => (
@@ -121,7 +121,7 @@ function About() {
           </p>
           <p>
             Today we serve hundreds of happy customers daily, but our ethos
-            remains unchanged — real ingredients, real care, and bread that
+            remains unchanged â€” real ingredients, real care, and bread that
             actually tastes like bread.
           </p>
           <div className="about-stats">
@@ -138,7 +138,7 @@ function About() {
 function Testimonials() {
   const reviews = [
     { name: 'Sarah M.', text: 'The sourdough here is genuinely the best I have ever had. Crusty outside, perfectly chewy inside. I come every Saturday!', rating: 5 },
-    { name: 'James T.', text: 'Ordered a custom birthday cake and it was absolutely stunning — beautiful and delicious. The whole family raved about it.', rating: 5 },
+    { name: 'James T.', text: 'Ordered a custom birthday cake and it was absolutely stunning â€” beautiful and delicious. The whole family raved about it.', rating: 5 },
     { name: 'Priya K.', text: 'The croissants are buttery perfection. I grab one every morning on my way to work. Nothing beats a freshly baked pastry!', rating: 5 },
   ]
   return (
@@ -153,7 +153,7 @@ function Testimonials() {
             <div className="testimonial-card" key={r.name}>
               <div className="stars">{'?'.repeat(r.rating)}</div>
               <p className="testimonial-text">"{r.text}"</p>
-              <p className="testimonial-name">— {r.name}</p>
+              <p className="testimonial-name">â€” {r.name}</p>
             </div>
           ))}
         </div>
@@ -171,7 +171,7 @@ function Contact() {
           <h2>Visit Us or Place an Order</h2>
           <div className="contact-details">
             <div className="contact-item"><span>??</span><div><strong>Address</strong><p>42 Maple Street, Willowbrook, NY 10001</p></div></div>
-            <div className="contact-item"><span>?</span><div><strong>Hours</strong><p>Mon–Fri: 7 AM – 7 PM<br />Sat–Sun: 7 AM – 5 PM</p></div></div>
+            <div className="contact-item"><span>?</span><div><strong>Hours</strong><p>Monâ€“Fri: 7 AM â€“ 7 PM<br />Satâ€“Sun: 7 AM â€“ 5 PM</p></div></div>
             <div className="contact-item"><span>??</span><div><strong>Phone</strong><p>(555) 123-4567</p></div></div>
             <div className="contact-item"><span>??</span><div><strong>Email</strong><p>hello@sweetcrumbs.com</p></div></div>
           </div>
@@ -225,7 +225,7 @@ function Footer() {
         </div>
       </div>
       <div className="footer-bottom">
-        <p>© 2026 Sweet Crumbs Bakery. All rights reserved.</p>
+        <p>Â© 2026 Sweet Crumbs Bakery. All rights reserved.</p>
       </div>
     </footer>
   )
@@ -247,3 +247,4 @@ function App() {
 }
 
 export default App
+
